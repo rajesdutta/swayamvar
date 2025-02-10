@@ -1,0 +1,148 @@
+/* Importing Google Font - Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+body{
+   
+   font-family: "Montserrat", serif;
+    
+}
+.note{
+    background-color: #ee04da;
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 0px 0px
+    
+}
+
+
+
+label.logo {
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav{
+    background: #ee04da;
+    height: 80px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+a.active,a:hover{
+    background: #159bff;
+    transition: .5s;
+}
+
+.contactus {
+    font-size: 1rem;
+    padding: 10px 35px;
+    color: #272f79;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #08f814;
+    border: 1px solid transparent;
+    transition: 0.02s ease;
+    
+}
+
+.contactus:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(html/heroimage.webp) ;
+    background-size: cover ;
+    
+}
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    background: rgba(202, 12, 12, 0.2);
+    border: 1px solid rgba(216, 104, 104, 0.5);
+}
+
+.card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+
+.card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+
+}
+
+.card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #35cc07;
+    border: 1px solid transparent;
+    transition: 0.02s ease;
+    
+}
+
+.card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
